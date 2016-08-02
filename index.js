@@ -46,9 +46,9 @@ server.on('error',function (err) {
   console.log('err'+err);
 });
 
-//port 4444로 연결 대기
-server.listen(4444,function () {
-  console.log('TCP listening on 4444');
+//port 5000로 연결 대기
+server.listen(5000,function () {
+  console.log('TCP listening on 5000');
 });
 
 
